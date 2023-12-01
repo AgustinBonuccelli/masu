@@ -24,7 +24,7 @@
 └── tsconfig.json
 ```
 
-# Install, Configure & Run
+# Install, Configure & Run, Regenerate docs
 
 Below mentioned are the steps to install, configure & run in your platform/distributions.
 
@@ -42,6 +42,15 @@ npm install;
 
 # Run the app
 npm run dev;
+```
+
+Regenerate docs
+```bash
+# Compile typescript
+npm run tsc;
+
+# Run the jdoc
+npm run docs;
 ```
 
 # List of Routes
