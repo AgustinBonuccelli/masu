@@ -3,6 +3,18 @@ import * as productServices from '../services/productServices'
 
 const router = express.Router()
 
+router.get('/:id', async (req, res) => {
+  try {
+    const response = await productServices.findById(+req.params.id)
+    return response != null ? res.send(response) : res.sendStatus(404)
+  } catch (e) {
+    const err = e instanceof Error
+    if (err) {
+      res.sendStatus(400).send(e.message)
+    }
+  }
+})
+
 router.get('/', async (req, res) => {
   try {
     const limit: number = req.query.limit as unknown as number
