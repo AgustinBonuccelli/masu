@@ -3,8 +3,8 @@ import { QueryParams } from './types'
 
 /**
  * 
- * @param url 
- * @param params 
+ * @param url {string}
+ * @param params { QueryParams }
  * @returns { Promise<AxiosResponse> }
  */
 export const fetch = async (url: string, params?: QueryParams): Promise<AxiosResponse> => {
