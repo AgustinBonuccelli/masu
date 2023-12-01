@@ -58,7 +58,7 @@ export const findById = async (id: number): Promise<ProductEntry> => {
  * getEntries
  * @async
  * @param {number} limit - using for filter the results
- * @returns {Promise<productEntry>} product object
+ * @returns {Promise<productsEntry>} product object
 */
 export const getEntries = async (limit?: number, skip?: number, select?: string): Promise<ProductsEntry> => {
   const url = `${process.env.URL}/products`
