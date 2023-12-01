@@ -22,15 +22,6 @@ dotenv.config()
 */
 
 /**
- * ProductEntry
- * @typedef {object} ProductsEntry
- * @property {ProductEntry} products
- * @property {string} total
- * @property {string} skip
- * @property {number} limit
-*/
-
-/**
  * ProductsEntry
  * @typedef {object} ProductsEntry
  * @property {ProductEntry} products
