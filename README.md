@@ -68,14 +68,18 @@ npm run docs;
 
 # Other contents
 
-Postman collection is attached in resources folder
+## Postman collection
+Attached in resources folder [/resources/Masu.postman_collection.json ](https://github.com/AgustinBonuccelli/masu/blob/master/resources/Masu.postman_collection.json)
 
 ![image](https://github.com/AgustinBonuccelli/masu/assets/126742419/6b0210a0-eaf6-4c7d-9faf-5f29cd3f4af2)
 
-PPT with solution is attached in resources folder
+## Presentation of the solution
+Power point PPT with solution is attached in resources folder [/resources/Masu.](https://github.com/AgustinBonuccelli/masu/blob/master/resources/Masu.pptx)
+![image](https://github.com/AgustinBonuccelli/masu/assets/126742419/d2ab6aee-4d2f-4abc-bfd7-dba513ea90bc)
 
-Diagram
 
-![image](https://github.com/AgustinBonuccelli/masu/assets/126742419/752bb777-1ac2-4d9c-b5b8-595ceb192c6f)
+## Diagram flow
+
+![image](https://github.com/AgustinBonuccelli/masu/assets/126742419/177c1ff0-53bc-47a0-a098-4d467c49c9d3)
 
 
